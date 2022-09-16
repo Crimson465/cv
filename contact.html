@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="contactInfo">
+            <h1>Contact Joshua</h1>
+            <p>5678 Dawg Street</p>
+            <p>Athens, GA 30602</p>
+            <br class="contactInfoLineBreak">
+            <p>555.555.5055</p>
+            <hr>
+        </div>
+        <div id="contactForm">
+            <form action="mailto: jjm65099@uga.edu" method="post">
+                <div class="frm">
+                    <table>
+                        <tr>
+                            <td class="lbl"><label for="name">Name: </label></td>
+                            <td><input type="text" class="fld" id="name" name="Name" style="margin-bottom:1%;"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"><label for="email">Email: </label></td>
+                            <td><input type="email" class="fld" id="email" name="email" style="margin-bottom:1%;"></td>
+                        </tr>
+                        <tr>
+                            <td class="lbl"><label for="message">Message: </label></td>
+                            <td><textarea name="message" class="fld" id="message" cols="30" rows="2" style="margin-bottom:1%;"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input class="fld" type="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+        <div class="page_footer">
+            <p id="copyrights">&copy Joshua Mundy</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+.page_header {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.081);
+    width: 100%;
+    height: 40em;
+    color: azure;
+    padding: 0.5%;
+    font-family: 'Open Sans', sans-serif;
+    overflow:hidden;
+}
+
+#topImageOne {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#headerName {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+#headerDescription {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.headshot {
+    position: absolute;
+    max-width: 12.5%;
+    height: auto;
+    top: 50%;
+    border-radius: 10%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.page_main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.081);
+    width: 100%;
+    color: lightgray;
+    padding: 0.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+}
+
+#greetingContainer {
+    text-align: center;
+}
+
+#resumeHeader {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+.sectionContainer {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    left: 37.5%;
+}
+
+.sectionImage {
+    max-width: 12.5%;
+    height: auto;
+    float:left;
+}
+
+#languagesList {
+    position: relative;
+    overflow: hidden;
+    bottom: 15px;
+}
+
+#experienceList {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    bottom: 15px;
+}
+
+#skillsList {
+    position: relative;
+    overflow: hidden;
+    left: 15px;
+    bottom: 15px;
+}
+
+.page_footer {
+    background-color: black;
+    width: 100%;
+    color: beige;
+    padding: 0.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75%;
+}
+
+#copyrights {
+    text-align: center;
+}
+
+#contactInfo {
+    background-color: rgba(0, 0, 0, 0.081);
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contactInfoLineBreak {
+    display: block; 
+    margin:1%;
+}
+
+#contactForm {
+    background-color: rgba(0, 0, 0, 0.081);;
+    color: lightgray;
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lbl {
+    text-align: right;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.fld {
+    width: 100%;
+}
+
+.frm {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+form div * {
+    vertical-align:top;
+}
+
+.button {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(66, 71, 74);
+    color: rgb(152, 144, 130);
+    padding: 0.625% 1.25%;
+    text-decoration: none;
+    outline-style: solid;
+    outline-color: #199319;
+    border-radius: 5%;
+}
+
+body {
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #199319;
+}
+
+hr {
+    border-top: 3px solid black;
+    border-top: 3px double #8c8b8b;
+    border-bottom: none;
+}
+
+ul {
+    list-style-type:none;
+}
